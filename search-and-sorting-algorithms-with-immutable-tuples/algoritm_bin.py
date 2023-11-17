@@ -1,5 +1,14 @@
 from typing import Tuple, Union
-
+ """
+    Realiza una búsqueda binaria en la tupla para encontrar el objetivo.
+    
+    Args:
+        tupla (Tuple): La tupla ordenada en la que se realizará la búsqueda.
+        objetivo (Any): El elemento que se busca en la tupla.
+        
+    Returns:
+        int: El índice del objetivo si se encuentra, o -1 si no se encuentra.
+    """
 
 def busqueda_binaria(tupla: Tuple[Union[int, str]], objetivo: Union[int, str]) -> int:
     
